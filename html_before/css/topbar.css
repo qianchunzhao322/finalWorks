@@ -1,0 +1,160 @@
+.top-bar {
+    background-color: #fff;
+    /* opacity: 0.5; */
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+}
+
+.top-logo {
+    line-height: 60px;
+    cursor: pointer;
+    display: flex;
+    margin-left: 72px;
+    margin-right: 24px;
+}
+
+.top-nav {
+    line-height: 60px;
+    display: flex;
+    -webkit-box-flex: 0;
+    flex: 0 0 auto;
+}
+
+.top-nav a:hover {
+    border-bottom: #07beff solid 2px;
+}
+
+.top-bar a:hover {
+    cursor: pointer;
+    color: #07beff;
+}
+
+.top-item {
+    line-height: 60px;
+    flex: 0 0 auto;
+}
+
+.top-itemText {
+    position: relative;
+    display: block;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 24px;
+    cursor: pointer;
+}
+
+.space {
+    margin: 0;
+    padding: 0;
+    flex: 3 3 0;
+}
+
+.top-search {
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 4px;
+    border: 1px solid #e5eaf4;
+    transition: border-color .15s;
+    background-color: #fff;
+    margin: 0 32px;
+    flex-shrink: 0;
+}
+
+.top-search-input {
+    width: 75%;
+    vertical-align: middle;
+    border: 1px;
+}
+
+.top-search-btn {
+    background: url(../imgs/top-search.png) no-repeat;
+    vertical-align: middle;
+    width: 25px;
+    height: 25px;
+    border: 0;
+    margin-top: 2.5px;
+    margin-left: 15px;
+}
+
+.top-search-btn:hover {
+    cursor: pointer;
+}
+
+.top-span {
+    line-height: 60px;
+    white-space: nowrap;
+    margin-left: 32px;
+}
+
+.top-span-a {
+    line-height: 60px;
+    outline: none;
+    cursor: pointer;
+    touch-action: manipulation;
+    margin-right: 32px;
+}
+
+.light {
+    text-align: center;
+    display: inline-block;
+    height: 100%;
+    width: 60%;
+    color: #333;
+    background-color: #07beff !important;
+}
+
+.light:hover {
+    color: #eaf9ff !important;
+    background-color: #37caff !important;
+}
+
+.top-right-a {
+    color: #333333;
+}
+
+.features___39T2V .item___2nNRc {
+    font-size: 16px;
+    line-height: 1.5;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-top: 75px;
+}
+
+
+.top-nav-item {
+    color: #333 !important;
+    position: absolute;
+    left: 0px;
+    z-index: 100000;
+    height: 600px;
+    width: 2000px;
+    display: flex;
+    /* display: none; */
+}
+
+.top-nav-item1 {
+    width: 30%;
+    background-color: #fff !important;
+    border-right: #e5eaf4 1px solid;
+}
+
+.top-nav-item1 h1 {
+    margin-top: 20px;
+    margin-left: 45%;
+}
+
+.top-nav-item2 {
+    overflow: auto;
+    width: 65%;
+    background-color: #fff;
+}
+
+.top-nav-item2-li {
+    margin-left: 60px;
+    margin-right: 60px;
+}

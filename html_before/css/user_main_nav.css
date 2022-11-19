@@ -1,0 +1,63 @@
+.cunchu-nav ul li .subMenu,
+.cunchu-nav ul li .subMenu1
+ {
+    margin-left: -1px;
+    margin-top: 5px;
+    width: 1306px;
+    height: 150px;
+    visibility: hidden;
+}
+
+.cunchu-nav ul li:hover .subMenu,
+.cunchu-nav ul li:hover .subMenu1 {
+    visibility: visible;
+}
+
+.cunchu-nav ul li .subMenu ul, 
+.cunchu-nav ul li .subMenu1 ul
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.cunchu-nav ul li .subMenu ul li,
+.cunchu-nav ul li .subMenu1 ul li  
+{
+    border: 0px;
+}
+
+.cunchu-nav ul li .subMenu ul .numb1,
+.cunchu-nav ul li .subMenu1 ul .numb1 
+{
+    width: 160px;
+}
+
+.cunchu-nav ul li .subMenu ul .numb2,
+.cunchu-nav ul li .subMenu1 ul .numb2 
+{
+    width: 250px;
+}
+
+.numb1 .first,
+.numb2 .first,
+.numb1 .second,
+.numb2 .second {
+    font-size: 20px;
+}
+
+.numb1 .third,
+.numb2 .third {
+    opacity: .5;
+    font-size: 16px;
+}
+
+
+.cunchu-nav ul li .subMenu1 {
+    position: absolute;
+    margin-left: -1px;
+    margin-top: 5px;
+    width: 1306px;
+    height: 150px;
+    left: 0%;
+}
