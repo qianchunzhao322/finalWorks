@@ -1,0 +1,145 @@
+.cunchu-nav ul li .subMenu,
+.cunchu-nav ul li .subMenu1 {
+    margin-left: -1px;
+    margin-top: 5px;
+    width: 1306px;
+    height: 150px;
+    visibility: hidden;
+}
+
+.cunchu-nav ul li:hover .subMenu,
+.cunchu-nav ul li:hover .subMenu1 {
+    visibility: visible;
+}
+
+.cunchu-nav ul li .subMenu ul,
+.cunchu-nav ul li .subMenu1 ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.cunchu-nav ul li .subMenu ul li,
+.cunchu-nav ul li .subMenu1 ul li {
+    border: 0px;
+}
+
+.cunchu-nav ul li .subMenu ul .numb1,
+.cunchu-nav ul li .subMenu1 ul .numb1 {
+    width: 160px;
+}
+
+.cunchu-nav ul li .subMenu ul .numb2,
+.cunchu-nav ul li .subMenu1 ul .numb2 {
+    width: 250px;
+}
+
+.numb1 .first,
+.numb2 .first,
+.numb1 .second,
+.numb2 .second {
+    font-size: 20px;
+}
+
+.numb1 .third,
+.numb2 .third {
+    opacity: .5;
+    font-size: 16px;
+}
+
+
+.cunchu-nav ul li .subMenu1 {
+    position: absolute;
+    margin-left: -1px;
+    margin-top: 5px;
+    width: 1306px;
+    height: 150px;
+    left: 0%;
+}
+
+.menu-container {
+    overflow: auto;
+    display: block;
+    top: 100px;
+}
+
+.menu-container ul li {
+    list-style-type: none;
+}
+
+.menu-container {
+    position: absolute;
+    width: 200px;
+    height: 100%;
+    top: 78px;
+    left: -200px;
+    z-index: 100;
+    transition: .6s;
+}
+
+.wrapper_WZsim {
+    cursor: pointer;
+}
+
+.moveR {
+    transition: .6s;
+    /*transform 水平方向伸缩*/
+    transform: translateX(200px);
+}
+
+.menu-container ul {
+    position: relative;
+}
+
+.menu-container ul li .item-icon img {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 10%;
+}
+
+.menu-container ul .has-sub {
+    height: 60px;
+    align-items: center;
+}
+
+.menu-container ul .has-sub .dropdown-heading {
+    line-height: 60px;
+    position: absolute;
+    left: 20%;
+    top:-13px;
+}
+
+.menu-container ul li {
+    height: 60px;
+    position: relative;
+}
+
+.menu-container ul li .iconfont {
+    position: absolute;
+    top: 27%;
+}
+
+.menu-container ul li .iconfont1 {
+    position: absolute;
+    top: 28%;
+}
+
+.menu-container ul li a {
+    line-height: 30px;
+    color: #333;
+    opacity: .9;
+    position: absolute;
+    left: 20%;
+    width: 100%;
+}
+
+.menu-container ul li:hover {
+    background: #e5f6fd;
+    border-left: 5px #00a6e0 solid;
+    color: #00a6e0;
+}
+
+.menu-container ul li a:hover {
+    color: #00a6e0;
+}

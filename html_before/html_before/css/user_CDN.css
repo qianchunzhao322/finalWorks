@@ -1,0 +1,347 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.inner_3nYKB {
+    display: flex;
+    border-bottom: 1px #00aee7 solid;
+}
+
+.inner_3nYKB .nav ul li,
+a {
+    text-decoration: none;
+    list-style: none;
+    padding: 15px 20px 0px;
+}
+
+.menu-container {
+    position: absolute;
+    width: 200px;
+    height: 100%;
+    top: 78px;
+    left: -200px;
+    z-index: 100;
+    transition: .6s;
+    overflow: hidden;
+}
+
+.wrapper_WZsim {
+    cursor: pointer;
+}
+
+.moveR {
+    transition: .6s;
+    /*transform 水平方向伸缩*/
+    transform: translateX(200px);
+}
+
+.inner_3nYKB .nav ul {
+    padding: 10px 20px 1px;
+}
+
+.qiniu {
+    padding: 25px 10px 10px;
+}
+
+.main_R {
+    position: relative;
+    width: 1387px;
+    height: 1100px;
+    background-color: #f5f5f5;
+    /* border-left: 1px #333 solid; */
+    z-index: 1;
+}
+
+.main_R_container {
+    margin: 20px 40px;
+}
+
+.main-body {
+    width: 1325px;
+    height: 1000px;
+    z-index: 2;
+}
+
+.main_R-top {
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.card-bodyL {
+    float: left;
+    width: 73%;
+    height: 100%;
+}
+
+li {
+    list-style-type: none;
+}
+
+.card-bodyL1 {
+    position: relative;
+    height: 560px;
+    width: 950px;
+    background-color: #fff;
+}
+
+.card-bodyL1 .card-bodyL1-top {
+    height: 40px;
+    width: 100%;
+    border-bottom: 1px #00aee7 solid;
+    background-color: #fff;
+}
+
+.card-bodyL1 .ul-items {
+    display: flex;
+    line-height: 40px;
+    position: absolute;
+    left: 30px;
+}
+
+.ul-items li {
+    height: 100%;
+    width: 80px;
+}
+
+.ul-items li a:hover {
+    color: #00aee7;
+    border-bottom: 2px #00aee7 solid;
+}
+
+.card-bodyL1-content {
+    height: 120px;
+    width: 100%;
+}
+
+.card-bodyL1-content ul {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 120px;
+}
+
+.ul-items1 li {
+    width: 50%;
+    height: 120px;
+    background-color: #fff;
+}
+
+.ul-items1 li h1 {
+    font: 16px/20px "微软雅黑";
+}
+
+.ul-items1 li h1 a,
+.ul-items li a {
+    color: #333;
+}
+
+.ul-items1 li .liuliang {
+    padding: 10px 30px;
+}
+
+.card-bodyL1-tu {
+    position: absolute;
+    top: 40%;
+    width: 90%;
+    left: 20px;
+    height: 300px;
+    background-color: #fff;
+}
+
+.card-bodyL1-tu nav {
+    border-bottom: 1px #e5e5e5 solid;
+}
+
+.card-bodyL1-tu nav ul li {
+    line-height: 40px;
+    width: 80px;
+}
+
+.card-bodyL1-tu nav ul li a {
+    color: #333;
+}
+
+.card-bodyL1-tu nav ul li a:hover {
+    cursor: pointer;
+    color: #00aee7;
+    border-bottom: 2px #00aee7 solid;
+}
+
+.card-bodyL1 .tu {
+    position: absolute;
+    width: 70%;
+    height: 220px;
+    top: 60px;
+    left: 10%;
+}
+
+.card-bodyL2 {
+    position: relative;
+    width: 950px;
+    background-color: #fff;
+    height: 350px;
+}
+
+.card-bodyL2-content {
+    position: absolute;
+    /* background-color: #333; */
+    width: 900px;
+    height: 320px;
+    top: 20px;
+    left: 25px;
+
+}
+
+.bodyL2-content-div1 {
+    width: 100%;
+    height: 60px;
+}
+
+.bodyL2-content-div2 {
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px #e5e5e5 solid;
+}
+
+.bodyL2-content-div2 .div2-span {
+    padding-left: 10px;
+    line-height: 60px;
+    display: block;
+    float: left;
+    height: 60px;
+    width: 30%;
+}
+
+.bodyL2-content-div3 {
+    width: 100%;
+    height: 180px;
+}
+
+.bodyL2-content-div3 .bodyL2-img {
+    width: 40px;
+    height: 40px;
+
+}
+
+.card-bodyR {
+    position: relative;
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+
+.card-bodyR1,
+.card-bodyR3,
+.card-bodyR2 {
+    width: 330px;
+    height: 180px;
+    background: #fff;
+    position: relative;
+}
+
+.card-bodyR4 {
+    width: 330px;
+    height: 400px;
+    background: #fff;
+    position: relative;
+}
+
+.card-bodyR1-T {
+    height: 40px;
+    width: 330px;
+    line-height: 40px;
+    margin-left: 20px;
+    display: flex;
+}
+
+.R1-span2 a {
+    color: #00aee7;
+}
+
+.card-bodyR1-C {
+    margin-top: 20px;
+    height: 100px;
+}
+
+.bodyR1-ul-items {
+    height: 100px;
+    width: 330px;
+    display: flex;
+    position: relative;
+}
+
+.bodyR1-ul-items li {
+    width: 50%;
+    padding-left: 30px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.bodyR1-ul-items li span {
+    opacity: .5;
+    font-size: 15px;
+}
+
+.card-bodyR2-T {
+    width: 300px;
+    height: 40px;
+    margin-left: 20px;
+    display: flex;
+    line-height: 40px;
+    /*垂直居中*/
+}
+
+.bodyR2-img1 {
+    width: 20px;
+    background-color: #fff;
+    height: 20px;
+    margin-top: 10px;
+}
+
+.card-bodyR2-C {
+    background-color: #f5f5f5;
+    width: 80%;
+    height: 80px;
+    margin: 30px 10%;
+    position: relative;
+}
+
+.card-bodyR2-C1 {
+    position: absolute;
+    background-color: #f5f5f5;
+    width: 80%;
+    height: 60px;
+    margin:10% 10% ;
+    margin-top:10px ;
+    font-size:15px ;
+}
+.bodyR4-content{
+    position: absolute;
+    width: 280px;
+    height: 360px;
+    top:20px;
+    left:25px;
+}
+.bodyR4-content h1{
+    font: 20px/20px "微软雅黑";
+    padding-bottom: 30px;
+}
+
+.bodyR4-content .card-bodyR4-ul{
+    width: 280px;
+    height: 300px;
+    background-color: #fff;
+}
+.card-bodyR4-ul li{
+    height:36px ;
+    width: 100%;
+}
+.card-bodyR4-ul li a{
+    text-decoration: none;
+    color: #333;
+}
+.card-bodyR4-ul li a:hover{
+    color: #00aee7;
+}
